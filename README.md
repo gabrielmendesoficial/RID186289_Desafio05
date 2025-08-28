@@ -62,6 +62,31 @@ Cada livro possui os seguintes campos:
 - Node.js (versão 14 ou superior)
 - npm ou yarn
 
+## Inicialização rápida
+
+Para quem usa **Windows**, existe um script auxiliar chamado `start-projetos.bat` na raiz do repositório.  
+Ele inicia **backend** e **frontend** automaticamente em janelas separadas, dando mais agilizade para quem apenas quer o projeto rodando local.
+
+No script existe o seguintes comandos:
+```bash
+@echo off
+echo ====== Iniciando Backend ======
+start cmd /k "cd backend && npm install && npm start"
+
+echo ====== Iniciando Frontend ======
+start cmd /k "cd frontend && npm install && npm run dev"
+
+echo ================================
+echo Projetos iniciados!
+echo Backend rodando em: http://localhost:3001
+echo Frontend rodando em: http://localhost:5173
+pause
+```
+
+> É a forma mais rápida de subir o projeto para desenvolvimento.
+
+Caso queira rodar apenas um modulo do sistema utilize os comandos:
+
 ### Backend
 ```bash
 cd backend
