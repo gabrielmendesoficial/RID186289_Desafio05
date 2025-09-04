@@ -1,6 +1,6 @@
 # Sistema de Biblioteca Online
 
-O projeto foi desenvolvido com sucesso, atendendo a todos os critérios de avaliação especificados no desafio. O sistema consiste em uma API RESTful em Node.js integrada a um frontend React, permitindo operações completas de CRUD (Create, Read, Update, Delete) para o gerenciamento de livros.
+O sistema consiste em uma API RESTful em Node.js integrada a um frontend React, permitindo operações completas de CRUD (Create, Read, Update, Delete) para o gerenciamento de livros.
 
 ## Estrutura do Projeto
 ```
